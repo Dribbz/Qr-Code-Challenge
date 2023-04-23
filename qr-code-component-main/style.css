@@ -15,15 +15,31 @@ img {
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    
+    
     
 }
 
 .container {
     background-color: white;
     padding: 1rem;
-    margin: 3rem 1.5rem;
+    /* margin: 3rem 1.5rem; */
     border-radius: 1rem;
     text-align: center;
+    
+
+    -webkit-box-shadow: 1px 12px 38px -13px rgba(0,0,0,0.49);
+    -moz-box-shadow: 1px 12px 38px -13px rgba(0,0,0,0.49);
+    box-shadow: 1px 12px 38px -13px rgba(0,0,0,0.49);
+    
+    
+    
 }
 
 .container img {
@@ -47,7 +63,11 @@ body {
     .container {
         
         max-width: 327px;
-         margin-inline: auto;
+        /* position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%); */
+        
         
          
     }
@@ -63,8 +83,10 @@ body {
 /* ATTRIBUTION */
 
 .attribution { 
+    
     font-size: 11px; 
     text-align: center; 
+    
 }  
 .attribution a { 
     color: black;
